@@ -472,6 +472,7 @@ def apply_lookfeel(lookfeel, keep_artwork=False, keep_color=False):
 		xbmc.executebuiltin('Skin.SetBool(noiconsilhouettes)')
 		xbmc.executebuiltin('Skin.SetBool(no_slide_animations)')
 		xbmc.executebuiltin('Skin.Reset(FENtasticHybrid)')
+		xbmc.executebuiltin('Skin.Reset(CinemaLookFeel)')
 		xbmc.executebuiltin('Skin.SetBool(ClassicFENtastic)')
 		xbmc.executebuiltin('Skin.Reset(EstuaryLookFeel)')
 		xbmc.executebuiltin('Skin.Reset(StockEstuaryVideoOSD)')
